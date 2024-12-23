@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Bot Developer Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 fixed w-full z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold">DevName</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#home" class="nav-link px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#skills" class="nav-link px-3 py-2 rounded-md text-sm font-medium">Skills</a>
+                        <a href="#projects" class="nav-link px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+                        <a href="#hire" class="nav-link px-3 py-2 rounded-md text-sm font-medium bg-indigo-600 hover:bg-indigo-700">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
+                    Discord Bot Developer
+                </h1>
+                <p class="mt-3 max-w-md mx-auto text-base text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                    Crafting powerful, customized Discord bots to enhance your server's functionality and user experience.
+                </p>
+                <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+                    <div class="rounded-md shadow">
+                        <a href="#projects" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+                            View Projects
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hire Section -->
+    <section id="hire" class="py-10 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-extrabold mb-4">Want to work together?</h2>
+                <div class="inline-flex items-center space-x-2 bg-gray-700 px-4 py-2 rounded-lg">
+                    <i class="fab fa-discord text-2xl text-indigo-400"></i>
+                    <span class="text-lg">Discord username: izorc</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-center mb-8">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <i class="fas fa-code text-4xl text-indigo-500 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Programming Languages</h3>
+                    <ul class="list-disc list-inside">
+                        <li>JavaScript (discord.js)</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-lg">
+                    <i class="fas fa-cogs text-4xl text-indigo-500 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Bot Features</h3>
+                    <ul class="list-disc list-inside">
+                        <li>Moderation Systems</li>
+                        <li>Custom Commands</li>
+                        <li>Music Systems</li>
+                        <li>Announcements</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-10 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-center mb-8">Featured Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-700 rounded-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Moderation Bot</h3>
+                        <p class="text-gray-300 mb-4">Advanced moderation bot with auto-moderation, warning system, and detailed logging.</p>
+                        <ul class="text-gray-400">
+                            <li>• Auto-mod features for spam and content</li>
+                            <li>• Customizable warning system</li>
+                            <li>• Detailed audit logs</li>
+                            <li>• Role management</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-gray-700 rounded-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Music & Entertainment Bot</h3>
+                        <p class="text-gray-300 mb-4">Feature-rich music bot with playlist support and mini-games.</p>
+                        <ul class="text-gray-400">
+                            <li>• High-quality music streaming</li>
+                            <li>• Playlist management</li>
+                            <li>• Interactive mini-games</li>
+                            <li>• Custom sound effects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400">
+            <p>© 2024 DevName. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Active navigation link highlighting
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 60) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove("bg-gray-900");
+                if (link.getAttribute("href").substring(1) === current && !link.classList.contains('bg-indigo-600')) {
+                    link.classList.add("bg-gray-900");
+                }
+            });
+        });
+    </script>
+</body>
+</html>
